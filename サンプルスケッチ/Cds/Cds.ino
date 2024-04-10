@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 void setup() {
   // シリアル通信の初期化
   Serial.begin(9600);
