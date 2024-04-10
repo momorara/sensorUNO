@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 const int trigPin = 5; // Trigピン
 const int echoPin = 4; // Echoピン
 
