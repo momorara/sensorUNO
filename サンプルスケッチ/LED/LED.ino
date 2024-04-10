@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 // LEDを接続したピンの定義
 const int ledPins[] = {12, 11, 10}; // LEDのピン番号配列
 
