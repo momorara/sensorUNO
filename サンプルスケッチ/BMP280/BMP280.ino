@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 #include <Wire.h>
 #include <SPI.h>
 #include <Adafruit_BMP280.h>
