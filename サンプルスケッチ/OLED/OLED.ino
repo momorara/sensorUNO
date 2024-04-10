@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 #include <Wire.h>
 #include <Adafruit_GFX.h>
 #include <Adafruit_SSD1306.h>
