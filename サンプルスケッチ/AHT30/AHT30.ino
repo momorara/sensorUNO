@@ -1,34 +1,27 @@
-//2024/4/9　sensorUNO用のスケッチ　TKJ
-
-const int trigPin = 5; // Trigピン
-const int echoPin = 4; // Echoピン
+//2024/4/10　sensorUNO用のスケッチ　TKJ
+#include <Adafruit_AHTX0.h>
+Adafruit_AHTX0 aht;
 
 void setup() {
-  Serial.begin(9600);
-  pinMode(trigPin, OUTPUT);
-  pinMode(echoPin, INPUT);
+  Serial.begin(9600);          
+  while (!Serial) delay(100); 
+  Serial.println(F("AHT30 Data Display"));
+  aht.begin(); // AHT21の初期化
 }
 
 void loop() {
-  long duration, distance;
-  
-  // Trigピンを10マイクロ秒だけHIGHにする
-  digitalWrite(trigPin, LOW);
-  delayMicroseconds(2);
-  digitalWrite(trigPin, HIGH);
-  delayMicroseconds(10);
-  digitalWrite(trigPin, LOW);
-  
-  // Echoピンからパルスの長さを読み取る
-  duration = pulseIn(echoPin, HIGH);
-  
-  // 距離を計算する（音速は340m/sと仮定）
-  distance = duration * 0.034 / 2;
-  
-  // シリアルモニタに距離を表示する
-  Serial.print("Distance: ");
-  Serial.print(distance);
-  Serial.println(" cm");
-  
-  delay(1000); // 1秒待つ
+  sensors_event_t humidity, temp;
+  aht.getEvent(&humidity, &temp); // AHT21から湿度と温度の取得
+
+  Serial.print(F("Temperature = "));
+  Serial.print(temp.temperature,1);
+  Serial.println(" °C");
+
+  Serial.print(F("humidity    = "));
+  Serial.print(humidity.relative_humidity,1);
+  Serial.println(" %");
+
+  Serial.println();
+
+  delay(1000);
 }
