@@ -1,3 +1,5 @@
+//2024/4/9　sensorUNO用のスケッチ　TKJ
+
 // スイッチを接続したピンの定義
 const int switchPin1 = 9;
 const int switchPin2 = 8;
