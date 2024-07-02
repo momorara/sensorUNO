@@ -24,10 +24,10 @@ Arduino_UNO用のセンサー基板を動作確認するための基本プログ
 git clone https://github.com/momorara/sensorUNO<br>
 でパソコンにダウンロードしてください。<br>
 インストールについては、通常のArduinoの使い方です。<br>
-必要なライブラリは以下のとおりです。
-Adafruit_AHTX0
-Adafruit BMP280
-Adafruit_SSD1306
+必要なライブラリは以下のとおりです。<br>
+Adafruit_AHTX0<br>
+Adafruit BMP280<br>
+Adafruit_SSD1306<br>
 
 <h4><<動作環境>></h4>
 Arduino_UNO<br>
