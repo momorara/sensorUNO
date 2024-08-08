@@ -41,5 +41,5 @@ void loop() {
   Serial.print(distance);
   Serial.println(" cm");
 
-  delay(500);  // 1秒待つ
+  delay(500);  // 0.5秒待つ
 }
