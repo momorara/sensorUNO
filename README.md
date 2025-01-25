@@ -40,6 +40,7 @@ Arduino_UNO<br>
 
 <h4><<メンテナンス情報>></h4>
 なし
+サポートコミュニティー　https://www.facebook.com/groups/3773038759434230<br>
 
 <h4><<サポート窓口>></h4>
   メールアドレスが　tkj-works@mbr.nifty.com に変更になっています。<br>
