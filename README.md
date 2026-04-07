@@ -47,11 +47,11 @@ Arduino_UNO<br>
   資料等を修正中ですが、ご注意ください。<br>
 
 -------------------------------------------
-Raspberry Pi sensor expansion board
-Python example included
-Purchase here:
-基板の販売について、以下のショップにて扱っています。
-BASEショップ
-https://raspi.thebase.in/
-スイッチサイエンス
-https://www.switch-science.com/search?q=tkj
+Raspberry Pi sensor expansion board<br>
+Python example included<br>
+Purchase here:<br>
+基板の販売について、以下のショップにて扱っています。<br>
+BASEショップ<br>
+https://raspi.thebase.in/<br>
+スイッチサイエンス<br>
+https://www.switch-science.com/search?q=tkj<br>
